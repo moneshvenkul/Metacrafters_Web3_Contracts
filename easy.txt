@@ -1,0 +1,17 @@
+
+This is an easy-level contract in Solidity, a programming language for Ethereum smart contracts. The contract is called HelloWorld and has only one state variable, greet, which is a public string containing the text "Hello World!".
+
+Summary: The HelloWorld contract is a simple smart contract that stores a "Hello World!" greeting message.
+
+Key parts of the code:
+
+pragma solidity ^0.8.17;: This line specifies the Solidity compiler version required for this contract. It must be greater than or equal to 0.8.17 and less than 0.9.0.
+contract HelloWorld: This line defines the contract named HelloWorld.
+string public greet: This line declares a public state variable greet of type string.
+"Hello World!";: This text initializes the greet variable with the message "Hello World!".
+Types of elements used in the code:
+
+The contract does not contain any loops, conditionals, or switches. It is a simple declaration and initialization of a state variable.
+Expected output:
+
+If you were to interact with this contract, you could call the greet variable to obtain the "Hello World!" message. There is no other functionality provided by this contract
